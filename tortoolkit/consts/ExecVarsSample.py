@@ -11,7 +11,7 @@ except:
         BASE_URL_OF_BOT = "http://t.me/ajrclone_bot"
 
         # Edit the server port if you want to keep it default though.
-        SERVPORT = 80
+        SERVPORT = 22
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [-1]
@@ -42,10 +42,10 @@ except:
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
-        MEGA_ENABLE = True
-        MEGA_API = "6SRwQR4C"
-        MEGA_UNAME = akshayjk28@gmail.com
-        MEGA_PASS = akshay@2882
+        MEGA_ENABLE = False
+        MEGA_API = ""
+        MEGA_UNAME = None
+        MEGA_PASS = None
 
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
