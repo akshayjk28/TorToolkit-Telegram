@@ -3,7 +3,7 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
         API_HASH = "64b89b893835d8af6afa588a6343d14d"
         API_ID = 13277464
@@ -11,7 +11,7 @@ except:
         BASE_URL_OF_BOT = "http://t.me/ajrclone_bot"
 
         # Edit the server port if you want to keep it default though.
-        SERVPORT = 80
+        SERVPORT = 22
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [-1]
